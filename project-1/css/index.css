@@ -1,0 +1,45 @@
+/* Step 1: Write a selector.
+What is a selector? Figure out every HTML element
+you want to style.
+*/
+
+/*
+Step 2: What should these look like?
+*/
+
+h1 {
+  /* English, hex codes, rgb, rgba */
+  color: goldenrod;
+  border: 1px solid black;
+  padding: 16px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1:hover {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: gray;
+}
+
+p {
+  color: blue;
+}
+
+.greeting {
+  color: yellow;
+}
+
+#farewell {
+  color: green;
+}
